@@ -1,0 +1,52 @@
+name: flutter_planets
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+  assets:
+    - assets/img/mercury.png
+    - assets/img/venus.png
+    - assets/img/earth.png
+    - assets/img/moon.png
+    - assets/img/mars.png
+    - assets/img/jupiter.png
+    - assets/img/saturn.png
+    - assets/img/uranus.png
+    - assets/img/neptune.png
+    - assets/img/pluto.png
+    - assets/img/ic_distance.png
+    - assets/img/ic_gravity.png
+    - assets/img/stars.jpg
+    - assets/img/stars_bar.jpg
